@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Toko Nasi Kuning Lezat</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffdb4d, #ffe066);
+      color: #4b3b00;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #ffad00;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(255, 170, 0, 0.3);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.75rem;
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 2px #ac7c00;
+    }
+    main {
+      flex: 1;
+      max-width: 900px;
+      margin: 2rem auto 3rem;
+      padding: 1rem;
+      background: #fffbe6;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(255, 173, 0, 0.3);
+    }
+    .product-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .product-image {
+      flex: 1 1 280px;
+      max-width: 350px;
+      border-radius: 20px;
+      box-shadow: 0 8px 12px rgba(255, 170, 0, 0.2);
+      overflow: hidden;
+      border: 3px solid #ffad00;
+    }
+    .product-image img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .product-details {
+      flex: 1 1 300px;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      padding: 0 1rem;
+      color: #664d00;
+    }
+    .product-details h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      color: #bf8000;
+      text-shadow: 1px 1px 2px #ac7c00;
+    }
+    section.info-section {
+      margin-bottom: 2rem;
+    }
+    section.info-section h3 {
+      font-size: 1.7rem;
+      color: #bf8000;
+      margin-bottom: 0.6rem;
+      border-bottom: 2px solid #ffad00;
+      padding-bottom: 0.3rem;
+    }
+    section.info-section p {
+      font-size: 1.15rem;
+      line-height: 1.5;
+      margin: 0.3rem 0;
+      color: #5c4500;
+    }
+    .catering-note {
+      background-color: #ffad00;
+      border-radius: 16px;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #422e00;
+      box-shadow: 0 4px 12px rgba(171, 95, 0, 0.4);
+      max-width: 600px;
+      margin: 0 auto;
+      user-select: none;
+    }
+    footer {
+      background-color: #bf8000;
+      color: #fdf7dc;
+      text-align: center;
+      font-size: 1rem;
+      padding: 0.8rem 1rem;
+      box-shadow: 0 -4px 8px rgba(171, 95, 0, 0.4);
+    }
+    @media (max-width: 600px) {
+      .product-section {
+        flex-direction: column;
+      }
+      .product-details {
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nasi Kuning Ibu shoimah Lezat</h1>
+  </header>
+  <main>
+    <div class="product-section">
+      <div class="product-image" aria-label="Gambar Nasi Kuning">
+        <img src="nasi-kuning.jpg" alt="Sepiring nasi kuning lengkap dengan lauk dan sayuran segar" />
+      </div>
+      <div class="product-details">
+        <h2>Jual Nasi Kuning khas rumahan</h2>
+        <p>
+          Nikmati kelezatan nasi kuning asli, dimasak dengan rempah pilihan yang harum dan cita rasa yang menggugah selera.
+          Cocok untuk sarapan, makan siang, atau acara spesial keluarga Anda.
+        </p>
+      </div>
+    </div>
+    <section class="info-section">
+      <h3>Alamat</h3>
+      <p>Desa tukmudal, Kec. Sumber, Kabupaten Cirebon, Jawa Barat patokan nya gang roket chiken sumber masuk terus.</p>
+    </section>
+    <section class="info-section">
+      <h3>Jam Buka</h3>
+      <p>Senin - sabtu: 05.00 - 08.00 WIB</p>
+      <p>Minggu: Libur</p>
+    </section>
+    <section class="info-section">
+      <h3>Terima Jasa Masakan / Catering</h3>
+      <p>Kami melayani jasa masakan dan catering untuk berbagai acara seperti arisan, ulang tahun, dan acara kantor.</p>
+      <p>Hubungi kami di <a href="tel:+62 895-3774-12271" style="color:#422e00; font-weight:700; text-decoration: underline;">+62 895-3774-12271</a> untuk pemesanan dan info lebih lanjut.</p>
+    </section>
+    <div class="catering-note" role="note">
+      Pesan Nasi Kuning atau nasi kotak untuk acara spesial Anda dengan layanan catering kami yang terpercaya dan jangan lupa sarapan di warung nasi ibu shoimah
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Nasi Kuning Lezat Mamah shoimah. Semua hak dilindungi.
+  </footer>
+</body>
+</html>
